@@ -1,0 +1,52 @@
+html{
+    box-sizing: border-box;
+}
+body{
+   height: 100vh;     font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1 
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    font-size: 28px;
+  }
+.hero{
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+.herotext{
+    display: flex;
+    flex-direction: column;
+}
+.action{
+    display: flex;
+    flex-direction: row;
+}
+.quote{
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: fit-content;
+    height: fit-content;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 5px 12px
+}
