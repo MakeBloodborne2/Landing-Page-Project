@@ -13,7 +13,9 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    flex: 1 
+    flex: 1;
+    justify-content: center;
+
 }
 .header{
     display: flex;
@@ -30,6 +32,9 @@ body{
 .herotext{
     display: flex;
     flex-direction: column;
+}
+.modal-text{
+    align-items: center;
 }
 .action{
     display: flex;
@@ -50,3 +55,28 @@ button{
     border-radius: 5px;
     padding: 5px 12px
 }
+.heroimg{
+    display: flex;
+    flex-direction: row;
+}
+.heroimg{
+    height:300px;
+}
+.modal-img-holder{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img{ 
+    border: 7px solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    height: 200px;
+    width: 170x;
+    
+}
+a{
+font-size: 18px;
+color: #e5e7eb;
+}
+
