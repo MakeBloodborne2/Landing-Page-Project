@@ -2,7 +2,7 @@ html{
     box-sizing: border-box;
 }
 body{
-   height: 100vh;     font-family: "Roboto", sans-serif;
+    height: 100vh;     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
@@ -22,19 +22,24 @@ body{
     flex-direction: row;
     background-color: #1F2937;
     font-size: 28px;
+    justify-content: space-around;
   }
 .hero{
     display: flex;
     flex-direction: row;
     background-color: #1F2937;
     color: #F9FAF8;
+    justify-content: space-around;
+    align-items: center;
 }
 .herotext{
     display: flex;
     flex-direction: column;
 }
 .modal-text{
-    align-items: center;
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
 }
 .action{
     display: flex;
@@ -53,14 +58,14 @@ button{
     height: fit-content;
     background-color: #3882F6;
     border-radius: 5px;
-    padding: 5px 12px
+    padding: 5px 18px;
+    color:#e5e7eb;
+    font-size: 20px;
 }
 .heroimg{
     display: flex;
-    flex-direction: row;
-}
-.heroimg{
-    height:300px;
+    flex-direction: row;    
+    height: 300px;
 }
 .modal-img-holder{
     display: flex;
@@ -71,12 +76,37 @@ button{
     border: 7px solid;
     border-color: #3882F6;
     border-radius: 10px;
-    height: 200px;
-    width: 170x;
+    height: 170px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
     
 }
 a{
-font-size: 18px;
-color: #e5e7eb;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
 }
+.quote-box{
+    background-color: #e5e7eb;
+    width: 100%;
+    height: 30%;
+}
+.modal-img-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.modal-subtext{
+    font-size: 18px;
+    text-align: left;
+}
+.quote-text{
 
+}
+.quote-signoff{
+
+}
+h1{
+    font-size: 48px;
+}
