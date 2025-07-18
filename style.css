@@ -2,7 +2,8 @@ html{
     box-sizing: border-box;
 }
 body{
-    height: 100vh;     font-family: "Roboto", sans-serif;
+    height: 100vh; 
+    font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
@@ -14,8 +15,6 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1;
-    justify-content: center;
-
 }
 .header{
     display: flex;
@@ -45,10 +44,6 @@ body{
     display: flex;
     flex-direction: row;
 }
-.quote{
-    display: flex;
-    flex-direction: row;
-}
 .footer{
     display: flex;
     flex-direction: column;
@@ -57,7 +52,7 @@ button{
     width: fit-content;
     height: fit-content;
     background-color: #3882F6;
-    border-radius: 5px;
+    border-radius: 6px;
     padding: 5px 18px;
     color:#e5e7eb;
     font-size: 20px;
@@ -65,7 +60,7 @@ button{
 .heroimg{
     display: flex;
     flex-direction: row;    
-    height: 300px;
+    height: 250px;
 }
 .modal-img-holder{
     display: flex;
@@ -90,7 +85,10 @@ a{
 .quote-box{
     background-color: #e5e7eb;
     width: 100%;
-    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
 }
 .modal-img-holder{
     display: flex;
@@ -99,14 +97,31 @@ a{
 }
 .modal-subtext{
     font-size: 18px;
-    text-align: left;
+    text-align: center;
+    color: #e5e7eb;
+    
 }
 .quote-text{
+    display: flex;
+    font-size: 36px;
+    text-align: center;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 200;
+
 
 }
 .quote-signoff{
-
+    text-align:right;
 }
 h1{
     font-size: 48px;
+}
+.modal-combo{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+h2{
+    font-size: 30px;
 }
