@@ -1,16 +1,23 @@
 html{
     box-sizing: border-box ;
+    height: 100%;
 }
 body{
-    height: 100%; 
+    min-height: 100%; 
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
+      margin: 0;
 }
-
+main{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    height: 100vh;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -40,17 +47,13 @@ body{
     font-weight: 900;
     font-size: 36px;
 }
-.action{
-    display: flex;
-    flex-direction: row;
-}
 .footer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #1F2937;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
+    margin-top: auto;
 }
 button{
     width: fit-content;
@@ -140,11 +143,16 @@ h2{
     border-radius: 10px;
 }
 .action-text{
-color: #F9FAF8;
+    color: #F9FAF8;
 }
 .action-button{
     border-radius: 5px;
     outline-color: #F9FAF8;
     outline-width: 3px;
     box-shadow: #F9FAF8;
+}
+.action-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
